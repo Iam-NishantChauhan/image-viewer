@@ -1,0 +1,86 @@
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main{
+  text-align: center;
+  display: block;
+  margin-bottom: 0px;
+}
+
+.upperdiv{
+  background-color: black;
+  height: 80%;
+  padding: 5px 100px 30px 100px ;
+}
+
+.upperimg{
+  height: 542px;
+   width : 900px;
+   border-radius: 3px;
+}
+
+.middiv{
+  background-color: #2A2A29;
+  display: flex;
+  flex-direction: row;
+  margin-top:px ;
+  width: 100%;
+  height: 30px;
+  border-bottom: black solid;
+  padding-bottom: 0px;
+}
+
+.para{
+  color: white;
+  text-align: left;
+  padding-left: 7px;
+  font-size: x-small;
+
+}
+
+.flex_row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #202122;
+  width: 100vw;
+  overflow-x: scroll;
+  padding: 15px 0 5px 0;
+}
+
+.thumbnail{
+  padding: 0 15px;
+  position: relative;
+}
+
+.clicked{
+  padding: 7px 2px 7px 2px;
+border: 2px solid rgb(255, 85, 0);
+}
+
+.pin{
+  position: absolute;
+  top: 10px;
+  left: 19px;
+  color :  rgb(255, 85, 0);
+  transform : scaleX(-1);
+}
+
+.dropdown{
+  width: 131px;
+  height: 100%;
+  font-size: 10px;
+  font-weight: bold;
+}
+.Dropdown-control{
+  padding: 8px 25px 8px 10px !important;
+}
+.drop1{
+  margin-left: 100px
+}
+.drop2{
+  margin-left: 30px;
+  width: 70px;
+}
